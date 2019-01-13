@@ -15,7 +15,7 @@ class AZip extends Component {
             Long,
         } = this.props.data;
 
-        console.log(this.props.data);
+        console.log('WHAT IS THIS?', this.props.data);
 
         return (
             <div className="OneCity">
