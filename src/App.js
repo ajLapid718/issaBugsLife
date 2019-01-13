@@ -49,7 +49,12 @@ class App extends Component {
           <div className="empty"> Zip City Search </div>
         </div>
         <div className="allResults">
-          <Request requestZip={this.state.requestedZip} />
+          {/*<Request requestZip={this.state.requestedZip} />*/}
+          <div className="cities-container">
+            <div className="cities">
+              {this.state.data.map((city, index) => (<AZip data={city} key={index}/>))}
+            </div>
+          </div>
         </div>
       </div>
     );
