@@ -1,0 +1,134 @@
+:root {
+	--main-bgc: #00456B;
+	--lvl1-bgc: #F77F00;
+	--lvl2-bgc: #F2C810;
+	--btn-bgc: #FCBF49;
+	--lvl0-txtc: #FFFFFF;
+	--lvl1-txtc: #000000;
+}
+
+body {
+	background-color: var(--main-bgc);
+	/*width: 98%;*/
+	height: 100vh;
+}
+
+input {
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5em;
+	text-align: center;
+	font-size: 1.2em;
+	width: 10vw;
+	align-self: center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	margin: 0.2em;
+	padding: 0.2em;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.Title {
+	color: var(--lvl0-txtc);
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0.2em;
+	padding: 0.2em;
+	align-self: flex-start;
+	margin-right: 1.2em;
+}
+
+.empty {
+	color: var(--main-bgc);
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0.2em;
+	padding: 0.2em;
+}
+
+.allResults {
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;*/
+	width: 100%;
+}
+
+.cities-container {
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;*/
+}
+
+.cities {
+	background-color: var(--lvl1-bgc);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0.2em;
+	border: none;
+	border-radius: 10px;
+	margin: 0 auto;
+	flex-shrink: 1;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.OneCity {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--lvl2-bgc);
+	/*background-color: #F2C810;*/
+	border: none;
+	border-radius: 10px;
+	margin: 0.2em;
+	padding: 0.2em;
+	width: auto;
+}
+
+.Zipcode {
+	
+}
+
+.CityName {
+	
+}
+
+.State {
+	
+}
+
+.Country {
+	
+}
+
+.TotalWages {
+	
+}
+
+.EsimatedPopulation {
+	
+}
+
+.Lat {
+	
+}
+
+.Long {
+	
+}
